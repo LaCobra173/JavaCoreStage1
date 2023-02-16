@@ -1,13 +1,10 @@
 package ru.marat.javacore;
 
-import ru.marat.javacore.controllers.GetRandomMessageController;
+import ru.marat.javacore.controllers.GetMessagesAndValueCapture;
 
 public class Application {
     public static void main(String[] args) {
-        GetRandomMessageController messageController = new GetRandomMessageController();
-        String message = messageController.getMessage();
-        System.out.println(message + "\n");
-        messageController.symbolCounts(message);
-        messageController.FrequencySymbols();
+        GetMessagesAndValueCapture getMessagesAndValueCapture = new GetMessagesAndValueCapture();
+        getMessagesAndValueCapture.start();
     }
 }
