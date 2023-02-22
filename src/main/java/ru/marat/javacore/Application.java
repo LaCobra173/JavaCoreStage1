@@ -1,10 +1,10 @@
 package ru.marat.javacore;
 
-import ru.marat.javacore.controllers.GetMessagesAndValueCapture;
+import ru.marat.javacore.controllers.TextServiceImpl;
 
 public class Application {
     public static void main(String[] args) {
-        GetMessagesAndValueCapture getMessagesAndValueCapture = new GetMessagesAndValueCapture();
-        getMessagesAndValueCapture.start();
+        TextServiceImpl textServiceImpl = new TextServiceImpl();
+        textServiceImpl.start();
     }
 }

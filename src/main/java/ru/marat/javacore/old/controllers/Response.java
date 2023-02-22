@@ -1,6 +1,6 @@
-package ru.marat.javacore.controllers;
+package ru.marat.javacore.old.controllers;
 
-import ru.marat.javacore.interfaces.IPrintMessage;
+import ru.marat.javacore.old.interfaces.IPrintMessage;
 
 public class Response implements IPrintMessage {
     private String msg;

@@ -1,7 +1,7 @@
-package ru.marat.javacore.controllers;
+package ru.marat.javacore.old.controllers;
 
-import ru.marat.javacore.interfaces.IPrintMessage;
-import ru.marat.javacore.interfaces.IPrintSymbols;
+import ru.marat.javacore.old.interfaces.IPrintMessage;
+import ru.marat.javacore.old.interfaces.IPrintSymbols;
 
 import java.util.Map;
 import java.util.TreeMap;

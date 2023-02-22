@@ -1,6 +1,6 @@
-package ru.marat.javacore.controllers;
+package ru.marat.javacore.old.controllers;
 
-import ru.marat.javacore.interfaces.IPrintFrequency;
+import ru.marat.javacore.old.interfaces.IPrintFrequency;
 
 public class Frequency extends CharacterСount implements IPrintFrequency {
     private static double avgFrequency;

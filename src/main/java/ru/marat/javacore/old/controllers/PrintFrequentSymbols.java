@@ -1,6 +1,6 @@
-package ru.marat.javacore.controllers;
+package ru.marat.javacore.old.controllers;
 
-import ru.marat.javacore.interfaces.IPrintFrequentSymbols;
+import ru.marat.javacore.old.interfaces.IPrintFrequentSymbols;
 
 import java.util.Map;
 import java.util.TreeMap;

@@ -1,4 +1,8 @@
-package ru.marat.javacore.controllers;
+package ru.marat.javacore.old.controllers;
+
+import ru.marat.javacore.controllers.*;
+
+import java.util.TreeMap;
 
 public class GetMessagesAndValueCapture {
     public void start() {
@@ -13,6 +17,5 @@ public class GetMessagesAndValueCapture {
 
         PrintFrequentSymbols printFrequentSymbols = new PrintFrequentSymbols();
         printFrequentSymbols.FrequencySymbols();
-
     }
 }

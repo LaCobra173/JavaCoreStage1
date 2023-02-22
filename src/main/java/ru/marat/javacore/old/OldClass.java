@@ -1,10 +1,7 @@
-package ru.marat.javacore.controllers;
+package ru.marat.javacore.old;
 
-import org.springframework.web.client.RestTemplate;
-import java.util.*;
-
-public class GetRandomMessageController {
-    private int number;
+public class OldClass {
+    /*private int number;
     private final int max = 10000;
     private static double symbolCount;
     private static double frequencySymbols;
@@ -50,5 +47,5 @@ public class GetRandomMessageController {
 
         System.out.println("Символы, которые соответствуют условию " +
                 "наиболее близкого значения частоты к среднему значению: " + str.substring(0, str.length()-2) + ".");
-    }
+    }*/
 }
