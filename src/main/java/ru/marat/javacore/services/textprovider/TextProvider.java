@@ -1,4 +1,4 @@
-package ru.marat.javacore.interfaces;
+package ru.marat.javacore.services.textprovider;
 
 public interface TextProvider {
     String provide();
