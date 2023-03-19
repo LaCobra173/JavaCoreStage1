@@ -8,8 +8,7 @@ public class TextProviderImpl implements TextProvider {
     public String provide() {
         int number = gettingRandomNumber();
         RestTemplate restTemplate = new RestTemplate();
-        String message = restTemplate.getForObject("http://numbersapi.com/" + number +"/trivia", String.class);
-        return message;
+        return restTemplate.getForObject("http://numbersapi.com/" + number +"/trivia", String.class);
     }
     private int gettingRandomNumber() {
         int number = 0;
